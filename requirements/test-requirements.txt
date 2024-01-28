@@ -41,3 +41,4 @@ tqdm
 databricks-sdk
 # Required for LLM eval in `mlflow.evaluate`
 openai
+mlflow>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
