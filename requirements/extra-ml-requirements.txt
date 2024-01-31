@@ -66,3 +66,4 @@ langchain
 sentence-transformers
 # Required by mlflow.keras_core
 keras-core
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
