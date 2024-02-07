@@ -41,3 +41,4 @@ tqdm
 databricks-sdk
 # Required for LLM eval in `mlflow.evaluate`
 openai
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
