@@ -5,10 +5,12 @@ datasets
 # nbsphinx and ipython are required for jupyter notebook rendering
 nbsphinx==0.8.8
 # ipython 8.7.0 is an incompatible release
-ipython!=8.7.0
+ipython!=8.10.0
 keras
 torch>=1.11.0
 torchvision>=0.12.0
 lightning>=1.8.1
 scrapy
 ipywidgets>=8.1.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=23.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
